@@ -1,0 +1,23 @@
+#users
+{
+	border-bottom: 1px solid lightgray;
+
+	margin-bottom: 20px;
+	padding-bottom: 5px;
+}
+
+#users > div
+{
+	display: inline-block;
+
+	background: #EBEBEB;
+
+	color: #424242;
+
+	width: 10%;
+	
+	margin-right: 5px;
+	margin-bottom: 5px;
+
+	padding: 10px;
+}

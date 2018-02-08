@@ -1,0 +1,135 @@
+*
+{
+	box-sizing: border-box;
+}
+
+*:focus
+{
+	outline: none;
+}
+
+*:active
+{
+	cursor: default;
+}
+
+body
+{
+	background: white;
+
+	font: normal 14px 'Roboto', sans-serif;
+}
+
+a
+{
+	color: #43A6DF;
+}
+
+a:hover
+{
+	text-decoration: underline;
+}
+
+.maxWidth
+{
+	width: 100%;
+}
+
+.title
+{
+	font: 300 32px 'Roboto', sans-serif;
+	color: #424242;
+
+	margin-top: 0px;
+	margin-bottom: 20px;
+}
+
+.inlineBlock
+{
+	display: inline-block;
+}
+
+.roundedIcon
+{
+	border-radius: 5px;
+
+	background: #272727;
+
+	text-align: center;
+	font-size: 20px !important;
+
+	width: 43px;
+
+	padding: 10px;
+}
+
+.roundedIcon:not(:last-child)
+{
+	margin-right: 5px;
+}
+
+.roundedIcon:hover
+{
+	background: #626262;
+}
+
+.roundedIcon:active
+{
+	background: #676767;
+}
+
+.hidden
+{
+	display: none;
+}
+
+.hiddenHeight
+{
+	height: 0px;
+}
+
+.center
+{
+	text-align: center;
+}
+
+.right
+{
+	float: right;
+}
+
+.underline
+{
+	text-decoration: underline;
+}
+
+.line
+{
+	position: absolute;
+
+	background: #070707;
+
+	height: 3px;
+
+	z-index: 99991;
+}
+
+.spaceBottomVerySmall
+{
+	margin-bottom: 5px !important;
+}
+
+.spaceBottomSmall
+{
+	margin-bottom: 10px !important;
+}
+
+.spaceBottomMedium
+{
+	margin-bottom: 20px !important;
+}
+
+.spaceRightSmall
+{
+	margin-right: 10px !important;
+}

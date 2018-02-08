@@ -1,0 +1,13 @@
+#connectContainer
+{
+	width: 300px;
+
+	margin: 10% auto;
+}
+
+.connectContainerInner
+{
+	background: #EBEBEB;
+
+	padding: 10px;
+}

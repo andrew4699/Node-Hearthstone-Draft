@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>Hearthstone Draft</title>
+
+		<meta name='keywords' content='Andrew,IO,Game,Shoot,Shooting,Shooter,Bullet,Multiplayer,Online'>
+		<meta name='description' content=''>
+		<meta name='author' content='Andrew Guterman'>
+
+		<link rel='Shortcut Icon' href='favicon.ico'>
+
+		<link rel='stylesheet' href='main.css'>
+
+		<link href='//maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css' rel='stylesheet'>
+
+		<link href='//fonts.googleapis.com/css?family=Roboto:500,900,400italic,100,300,300italic,400' rel='stylesheet'>
+
+		<script src='//code.jquery.com/jquery-2.2.0.min.js'></script>
+		
+		<script src='bundle.js'></script>
+	</head>
+
+	<body>
+		<div id='connectContainer'>
+			<div class='title'>Hearthstone Draft</div>
+
+			<div class='connectContainerInner'>
+				<input type='text' id='name' placeholder='Name' maxlen='24' autocomplete='off' class='maxWidth'>
+				<button id='connect' class='maxWidth'>Connect</button>
+			</div>
+		</div>
+
+		<div id='lobbyContainer' class='hidden'>
+			<div id='users'></div>
+
+			<div id='status' class='title center'>Waiting for players</div>
+
+			<div id='heroContainer'>
+				<div><img><div></div></div><div><img><div></div></div><div><img><div></div></div><div><img><div></div></div><div><img><div></div></div><div><img><div></div></div><div><img><div></div></div><div><img><div></div></div>
+			</div>
+
+			<select id='playerOne'></select> <button id='playerOneReady' class='disabled'>Ready</button>
+			<select id='playerTwo' class='right'></select> <button id='playerTwoReady' class='right disabled' style='margin-right: 3px'>Ready</button>
+		</div>
+
+		<div id='pickContainer' class='hidden'>
+			<img id='druid' src='media/portraits/druid.png'>
+			<img id='hunter' src='media/portraits/hunter.png'>
+			<img id='mage' src='media/portraits/mage.png'>
+			<img id='paladin' src='media/portraits/paladin.png'>
+			<img id='priest' src='media/portraits/priest.png'>
+			<img id='rogue' src='media/portraits/rogue.png'>
+			<img id='shaman' src='media/portraits/shaman.png'>
+			<img id='warlock' src='media/portraits/warlock.png'>
+			<img id='warrior' src='media/portraits/warrior.png'>
+			<button id='lock'>Lock</button>
+		</div>
+	</body>
+</html>

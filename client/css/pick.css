@@ -1,0 +1,23 @@
+#pickContainer
+{
+	position: fixed;
+	bottom: 0px;
+	left: 0px;
+
+	background: #EBEBEB;
+
+	padding: 5px;
+	padding-bottom: 0px;
+}
+
+#pickContainer > img
+{
+	width: 10%;
+	height: 10%;
+}
+
+#pickContainer > img.disabled, #pickContainer > img.picked
+{
+	filter: grayscale(100%);
+	-webkit-filter: grayscale(100%);
+}

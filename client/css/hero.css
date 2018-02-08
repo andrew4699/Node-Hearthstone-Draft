@@ -1,0 +1,95 @@
+.lobbyName
+{
+	background: #424242;
+
+	color: white;
+
+	padding: 3px 7px;
+}
+
+#heroContainer
+{
+	height: 50vh;
+
+	margin-bottom: 10px;
+
+	vertical-align: top;
+}
+
+#heroContainer > div
+{
+	display: inline-block;
+
+	width: calc(12.5% - 2px);
+	height: 100%;
+}
+
+#heroContainer div:hover
+{
+	opacity: 0.8;
+}
+
+#heroContainer > div:nth-child(4)
+{
+	margin-right: 16px;
+}
+
+#heroContainer > div.picking
+{
+	animation: 1s pickPulse infinite;
+}
+
+@keyframes pickPulse
+{
+	0%, 100%
+	{
+		opacity: 0.8;
+	}
+
+	50%
+	{
+		opacity: 0.6;
+	}
+}
+
+#heroContainer > div.banned > img
+{
+	filter: grayscale(100%);
+	-webkit-filter: grayscale(100%);
+}
+
+#heroContainer > div.banned > div
+{
+	background: #424242;
+
+	color: transparent !important;
+}
+
+#heroContainer > div > img
+{
+	width: 100%;
+	height: calc(100% - 49px);
+}
+
+#heroContainer > div > div
+{
+	text-align: center;
+	font-weight: 300;
+	font-size: 24px;
+	color: white;
+
+	height: 49px;
+
+	margin-top: -4px;
+	padding: 10px;
+}
+
+.druid { background: #FF7D0A; }
+.hunter { background: #ABD473; }
+.mage { background: #69CCF0; }
+.paladin { background: #F58CBA; }
+.priest { background: #DEDEDE; color: #424242 !important; }
+.rogue { background: #FFF569; color: #424242 !important; }
+.shaman { background: #0070DE; }
+.warlock { background: #9482C9; }
+.warrior { background: #C79C6E; }

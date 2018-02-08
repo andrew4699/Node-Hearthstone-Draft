@@ -1,0 +1,57 @@
+input, button
+{
+	border: none;
+
+	font: normal 14px 'Roboto', sans-serif;
+}
+
+input:not(:last-child), button:not(:last-child)
+{
+	smargin-bottom: 10px;
+}
+
+input
+{
+	background: white;
+
+	color: gray;
+
+	padding: 10px 7px;
+}
+
+button
+{
+	background: #2578CF;
+
+	color: white;
+
+	padding: 10px;
+}
+
+button:hover
+{
+	background: #43A6DF;
+}
+
+button.disabled
+{
+	background: #626262;
+}
+
+select
+{
+	border: 1px solid lightgray;
+
+	background: none;
+
+	color: gray;
+
+	width: 150px;
+
+	padding: 9px 7px;
+}
+
+select:disabled
+{
+	background: #EBEBEB;
+}

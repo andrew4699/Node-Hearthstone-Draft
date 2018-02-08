@@ -1,0 +1,19 @@
+{
+  "name": "Hearthstone Draft",
+  "version": "1.0.1",
+  "description": "Hearthstone Draft",
+  "private": true,
+  "main": "server/server.js",
+  "scripts": {
+    "start": "node --use_strict server/server.js"
+  },
+  "author": "Andrew Guterman <andrew_guterman@yahoo.com>",
+  "license": "ISC",
+  "dependencies":
+  {
+    "express" : "latest",
+    "sat" : "latest",
+    "socket.io" : "latest",
+    "request" : "latest"
+  }
+}
